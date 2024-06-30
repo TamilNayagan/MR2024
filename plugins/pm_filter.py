@@ -677,7 +677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         clicker = int(query.data.split("#")[1])
         if clicker not in [query.from_user.id, 0]:
             return await query.answer(
-            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato", show_alert=True
+            f"Hey {query.from_user.first_name}, Get Over Here", show_alert=True
             )
         return await query.message.edit(script.REF_LINK.format(temp.U_NAME , clicker , PREMIUM_POINT) , reply_markup=InlineKeyboardMarkup([
 	    [InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]
@@ -686,7 +686,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         clicker = int(query.data.split("#")[1])
         if clicker not in [query.from_user.id, 0]:
             return await query.answer(
-            f"Hey {query.from_user.first_name}, Jaldi Yeha Se Hato", show_alert=True
+            f"Hey {query.from_user.first_name}, Get Over Here", show_alert=True
             )
         newPoint = await db.get_point(clicker)
         
@@ -792,17 +792,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
             InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-            InlineKeyboardButton('🎗️ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
-        ],
-        [
-            InlineKeyboardButton('🎁 ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'free_premium#{query.from_user.id}')
-        ],
-        [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{query.from_user.id}'),
             InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data=f'about')
-        ],
-        [
-            InlineKeyboardButton('🤞🏻 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🤡', callback_data='earn')
         ]]    
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1275,10 +1265,10 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         if not files:
             if settings["spell_check"]:
                 await delSticker(st)
-                ai_sts = await msg.reply_text('<b>Ai is Cheking For Your Spelling. Please Wait.</b>')
+                ai_sts = await msg.reply_text('<b>ᴀɪ ꜱᴇᴀʀᴄʜɪɴɢ 🔍 ғᴏʀ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ☺️. ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ</b>')
                 is_misspelled = await ai_spell_check(search)
                 if is_misspelled:
-                    await ai_sts.edit(f'<b>Ai Suggested <code>{is_misspelled}</code>\nSo Im Searching for <code>{is_misspelled}</code></b>')
+                    await ai_sts.edit(f'<b>ᴀɪ ꜱᴜɢɢᴇꜱᴛ <code>{is_misspelled}</code>\nꜱᴏ ɪᴀᴍ ꜱᴇᴀʀᴄʜɪɴɢ 🔍 ғᴏʀ <code>{is_misspelled}</code></b>')
                     await asyncio.sleep(2)
                     msg.text = is_misspelled
                     await ai_sts.delete()
