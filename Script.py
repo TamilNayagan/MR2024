@@ -16,7 +16,7 @@ class script(object):
     FSUB_TXT = """<b>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
 • ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
 • sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
-ᴇx: <code>/fsub -1004646464646</code>
+ᴇx: <code>/fsub -1001762991266</code>
 
 ɴᴏᴡ ɪᴛ's ᴅᴏɴᴇ.ɪ ᴡɪʟʟ ᴄᴏᴍᴘᴇʟ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ, ᴀɴᴅ I ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ғɪʟᴇs ᴜɴᴛɪʟ ʏᴏᴜʀ ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ᴄʜᴀɴɴᴇʟ.
 
@@ -38,11 +38,11 @@ class script(object):
     ABOUT_TEXT = """<b>🎭 ʜᴇʟʟᴏ {},
     
 🤖 ɪ'ᴍ <a href=https://t.me/{}</a> 
-⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
+⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.koyeb.com/">ᴋᴏʏᴇʙ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
 🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʜᴀʀᴀ ʜᴀʀᴀ ᴍᴀʜᴀᴅᴇᴠ
-🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/Cyber_sequrity_Crimes">ᴄʀᴇᴀᴛᴏʀ</a>
+🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/ChandrU_AK">ᴄʀᴇᴀᴛᴏʀ</a>
 🧑🏻‍💻 ʀᴇᴘᴏ : <a href="https://github.com">ʟɪɴᴋ</a>
 </b>"""
     
@@ -110,14 +110,14 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/+NS-kPna-70w3Y2I9'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<a href='https://t.me/+W4cB_0g7ZWU2NWM1'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
+    ALRT_TXT = """ɢᴇᴛ ᴀᴡᴀʏ ꜰʀᴏᴍ ʜᴇʀᴇ Qᴜɪᴄᴋʟʏ !"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 
@@ -158,7 +158,7 @@ User - {}"""
 
     BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>uploading soon......</code> ᴜᴘɪ ɪᴅ.
     
-○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @Cyber_sequrity_Crimes
+○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @ChandrU_AK
 
 ○ <u>ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ sᴛᴇᴘ</u> : ᴏʀ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ /bought ᴄᴏᴍᴍᴀɴᴅ.
 
