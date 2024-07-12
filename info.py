@@ -19,10 +19,10 @@ API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '661301615').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1026755263').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/ChandrU_AK")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://telegram.me/+J5zlO5boIu9mZGY1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://telegram.me/+UZZ61cb1twtkZDJl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "")
 
@@ -30,7 +30,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/f3612340562145c38fadf.jpg')
-START_IMG = environ.get('START_IMG', 'http://telegra.ph/file/2ab6ac6692cc50728ff30.jpg')
+START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/fad218c76a70b7b82d545.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL',''))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS',''))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
